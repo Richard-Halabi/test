@@ -8,9 +8,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node-dev src/server.ts",
-    "build": "tsc -p .",
-    "postinstall": "npm run build"
+    "start": "ts-node src/server.ts",
+    "build": "tsc -p ."
   },
   "author": "Rich",
   "license": "ISC",
