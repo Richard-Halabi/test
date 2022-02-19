@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/server.ts",
-    "build": "tsc"
+    "build": "tsc -p ."
   },
   "author": "Rich",
   "license": "ISC",
